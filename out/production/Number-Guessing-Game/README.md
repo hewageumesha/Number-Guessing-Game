@@ -38,28 +38,22 @@ A simple and interactive number guessing game built in Java. Test your luck and 
 ## Sample Output
 
 ```
+----------------------------------
   THE ULTIMATE NUMBER CHALLENGE   
  I'm thinking of a number (1-100) 
    You have 7 attempts to win! 
 ----------------------------------
-[] Guess: 
-30
-LOWER | Don't give up!
-[] Guess: 
-20
-LOWER | Almost there!
-[] Guess: 
-10
-LOWER | Don't give up!
-[] Guess: 
-5
-LOWER | Keep going!
-[] Guess: 
-3
 
- ***** EPIC WIN! *****
-The number was indeed 3.
-Your rank: Expert Scout (A-Tier)
+Enter your guess (Attempt 1/10): 50
+Too HIGH! Try a lower number.
+Attempts remaining: 9
+
+Enter your guess (Attempt 2/10): 25
+Too LOW! Try a higher number.
+Attempts remaining: 8
+
+Enter your guess (Attempt 3/10): 37
+Congratulations! You guessed it!
 ```
 
 ## Project Structure
